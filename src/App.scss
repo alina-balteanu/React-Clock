@@ -88,9 +88,9 @@ main {
   &:before {
     width: 6px;
     height: 100%;
-    top: 0;
+    bottom: 0;
     left: 50%;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, 70%);
     background: repeating-linear-gradient(
       to bottom,
       lighten($color-black, 15),
